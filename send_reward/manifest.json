@@ -1,0 +1,16 @@
+{
+  "name": "Compensation",
+  "author": {
+    "name": "Seiza",
+    "email": "zhdanov.d@panoramikgames.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_editor": "assets/editor_iframe.html"
+    }
+  },
+  "version": "1.0.0",
+  "frameworkVersion": "2.0"
+}
