@@ -25,10 +25,10 @@
         var adminUrl
         switch (game){
             case 'auto_brawl_chess':
-                adminUrl = 'https://dev1.panochess.com/__admin__/#/!/profile/search/redeem/' + redeem
+                adminUrl = 'https://panochess.com/__admin__/#/!/profile/search/redeem/' + redeem
                 break;
             case 'brawl_zone':
-                adminUrl = 'https://dev1.panochess.com/__admin__/#/!/profile/search/redeem/' + redeem
+                adminUrl = 'https://panochess.com/__admin__/#/!/profile/search/redeem/' + redeem
                 break;
             case 'mighty_party':
                 adminUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' //replace with url when frontend task is done
