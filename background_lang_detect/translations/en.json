@@ -1,8 +1,8 @@
 {
   "app": {
-    "name": "Zen Tunes",
-    "short_description": "Play the famous zen tunes in your help desk.",
-    "long_description": "Play the famous zen tunes in your help desk and \n listen to the beats it has to offer.",
-    "installation_instructions": "Simply click install."
+    "name": "Language Detect",
+    "short_description": "Detects the language of a ticket on notification.",
+    "long_description": "Detects the language of a ticket on notification. Requires a webhook to be set with event startLangDetectEvent.",
+    "installation_instructions": "Click install, setup the webhook and the trigger."
   }
 }
