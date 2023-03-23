@@ -1,4 +1,4 @@
-cd ".\background_lang_detect\assets\"
+Set-Location ".\assets\"
 browserify main.js -o app_bundle.js
-cd ..
+Set-Location ..
 zcli apps:update
