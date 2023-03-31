@@ -36,6 +36,8 @@ client.on('api_notification.startLangDetectEvent', function(data) {
 
     //либа не умеет в японский, поэтому чекаем сами. Если есть попадание - вернет не null
     var containsJapanese = ticketData.ticket_text.match(/[\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]/);
+    var containsChinese = ticketData.ticket_text.match(/[\u4E00-\u9FFF]/);
+    var containsKorean = ticketData.ticket_text.match(/[\uAC00-\uD7A3]/);
 
 
     //теперь определяем язык
@@ -44,7 +46,7 @@ client.on('api_notification.startLangDetectEvent', function(data) {
         ticketLanguage = ticketLanguage[0].toString()
     } catch (error) {
         ticketLanguage = 'en';
-    }; //to do: японский здесь выбивает null, из-за чего прилка ловит TypeError.
+    };
     
     ticketLanguage = ticketLanguage.substring(0, 2);
 
@@ -54,6 +56,12 @@ client.on('api_notification.startLangDetectEvent', function(data) {
     }
     if (containsJapanese != null) {
         ticketLanguage = 'jp';
+    }
+    if (containsChinese  != null) {
+        ticketLanguage = 'cn';
+    }
+    if (containsKorean   != null) {
+        ticketLanguage = 'kr';
     }
 
     console.log('ticketLanguage = ' + ticketLanguage);
