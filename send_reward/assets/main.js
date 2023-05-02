@@ -31,10 +31,10 @@
                 adminUrl = 'https://panochess.com/__admin__/#/!/rewards/send?search_type=redeems&search_value=' + redeem + '&rewards=[{type=resource,reward_id=gems,count=150}]'
                 break;
             case 'mighty_party':
-                adminUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' //replace with url when frontend task is done
+                adminUrl = 'https://blitzmightyparty.com/__admin__/#/!/rewards?search_type=player_redeems&search_value=' + redeem + '&rewards=%5B%7Btype%3Dresource%2Cid%3Dgems%2Ccount%3D150%7D%5D'
                 break;
             case 'mighty_wars':
-                adminUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' //replace with url when frontend task is done
+                adminUrl = 'https://blitzmightyparty.com/__admin__/#/!/rewards?search_type=player_redeems&search_value=' + redeem + '&rewards=%5B%7Btype%3Dresource%2Cid%3Dgems%2Ccount%3D150%7D%5D'
                 break;
             default:
                 adminUrl = 'https://blitzmightyparty.com/__admin__/#/!/rewards'

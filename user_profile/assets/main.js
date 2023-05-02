@@ -31,10 +31,10 @@
                 adminUrl = 'https://panochess.com/__admin__/#/!/profile/search/redeem/' + redeem
                 break;
             case 'mighty_party':
-                adminUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' //replace with url when frontend task is done
+                adminUrl = 'https://blitzmightyparty.com/__admin__/#/!/profile/search/redeem/' + redeem
                 break;
             case 'mighty_wars':
-                adminUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' //replace with url when frontend task is done
+                adminUrl = 'https://blitzmightyparty.com/__admin__/#/!/profile/search/redeem/' + redeem
                 break;
             default:
                 adminUrl = 'https://blitzmightyparty.com/__admin__/#/!/profile/search'
