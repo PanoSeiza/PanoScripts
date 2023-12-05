@@ -36,6 +36,9 @@
             case 'mighty_wars':
                 adminUrl = 'https://blitzmightyparty.com/__admin__/#/!/rewards?search_type=player_redeems&search_value=' + redeem + '&rewards=%5B%7Btype%3Dresource%2Cid%3Dgems%2Ccount%3D150%7D%5D'
                 break;
+            case 'lyssa':
+                adminUrl = 'https://panowars.com/__admin__/#/!/rewards?search_type=player_redeems&search_value=' + redeem + '&rewards=%5B%7Btype%3Dresource%2Cid%3Dgems%2Ccount%3D150%7D%5D'
+                break;
             default:
                 adminUrl = 'https://blitzmightyparty.com/__admin__/#/!/rewards'
         }
