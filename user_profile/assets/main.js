@@ -36,6 +36,9 @@
             case 'mighty_wars':
                 adminUrl = 'https://blitzmightyparty.com/__admin__/#/!/profile/search/redeem/' + redeem
                 break;
+            case 'lyssa':
+                adminUrl = 'https://panowars.com/__admin__/#/!/profile/search/redeem/' + redeem
+                break
             default:
                 adminUrl = 'https://blitzmightyparty.com/__admin__/#/!/profile/search'
         }
